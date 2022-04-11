@@ -1,21 +1,14 @@
-# a=["A","B"]
-# i=1
-# j=2
-# while i<=j:
-#     k=0
-#     while k<len(a):
-#         print(a[k]+str(i))
-#         k+=1
-#     i+=1
 
-
-
-a=["A","B","C"]
+a = ["A","B"]
 i=1
 j=2
+b=[]
 while i<=j:
     k=0
     while k<len(a):
-        print(a[k]+str(i))
+        c=(a[k]+str(i))
+        b.append(c)
         k+=1
     i+=1
+print(b)
+

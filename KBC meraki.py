@@ -1,20 +1,20 @@
-print("what is the capital of india?")
-print("1-chandigarh")
-print("2-bhopal")
-print("3-chennai")
-print("4-delhi")
-option1="1"
-option2="2"
-option3="3"
-option4="4"
-x=input("please choose your answer")
-if x==str(option1):
-    print("you are wrong")
-elif  x==str(option2) :
-    print("you are wrong") 
-elif x==str(option3):
-    print("you are wrong")
-elif x==str(option4):
-    print("you are right")
-else:
-    print("enter a valid answer")
+
+a=["What is the capital of India?"]
+b=["Chandigarh","Bhopal","Chennai","Delhi"]
+solution=[4]
+i=0
+j=0
+while i<len(a) and j<len(b):
+    print(a[i])
+    k=0
+    while k<(len(b)):
+        print(b[k])
+        k+=1
+    sol=int(input("Enter the number:"))
+    if sol==solution[i]:
+        print("Congratulations! Correct answer")
+    else:
+        print("Better luck next time")
+    print()
+    i+=1
+    j+=1

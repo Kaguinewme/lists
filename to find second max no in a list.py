@@ -1,8 +1,6 @@
-# numbers=[50,40,23,70,56,12,5,10,7]
-# new_list=(numbers)
-# new_list.remove(max(new_list))
-# print(max(new_list))
-
-numbers=[50,40,23,70,56,12,5,10,7]
-numbers.sort()
-print("the second max no is=",numbers[-2])
+list=[2,3,6,8,5,9,23,34,12]
+i=0
+while i<len(list):
+    list.sort()
+    i+=1
+print(list[-2])

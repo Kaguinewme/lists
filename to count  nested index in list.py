@@ -11,6 +11,4 @@ while i<len(a) :
     else:
         print(i,a[i])
         i+=1
-            
-        
-    
+               

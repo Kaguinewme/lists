@@ -1,12 +1,12 @@
-string=input("enter the string=")
-rev_string=string[::-1]
-print("reverse string:", rev_string)
-if string==rev_string:
-    print("string is s palindrone")
-else:
-    print("string is not a palindrone")
 
-# name=["n","i","t","i","n"]
-# reverse=name[::-1]
-# palindrome=name=reverse
-# print(str(palindrome))
+name=["n","i","t","i","n"]
+i=1
+a=[]
+while i<=len(name):
+    a.append(name[-i])
+    i+=1
+print(a)
+if a==name:
+    print("palindrome")
+else:
+    print("not palindrome")

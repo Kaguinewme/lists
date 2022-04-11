@@ -6,7 +6,6 @@ while i< len(list1):
     if list1[i] not in list2:
         b.append(list1[i])
     i=i+1  
-print(b)      
-    
-
- 
+print(b)
+          
+         

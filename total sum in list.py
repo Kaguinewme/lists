@@ -11,11 +11,4 @@ while i<len(a):
         sum=sum+a[i]
     i+=1
 print(sum)  
-
-        
-    
-            
-        
-                
-    
-    
+  

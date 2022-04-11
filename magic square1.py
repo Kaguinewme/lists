@@ -1,0 +1,15 @@
+ms= [[8, 3, 4],[1, 5, 9],[6, 7, 2]]
+i=0
+a=0
+b=0
+c=0
+while i<len(ms):
+    a=a+ms[i][0]
+    b=b+ms[i][1]
+    c=c+ms[i][2]
+    i=i+1
+    print(a,b,c)
+if a==b==c:
+    print("magic square")
+else:
+    print("not")
